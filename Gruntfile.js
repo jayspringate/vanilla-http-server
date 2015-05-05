@@ -44,7 +44,7 @@ module.exports = function(grunt) {
       },
       scripts: {
         files: ['**/*.js', 'test/**/*.js'],
-        tasks: ['jshint, test'],
+        tasks: ['test'],
         options: {
           event: ['added', 'deleted', 'changed']
         },
